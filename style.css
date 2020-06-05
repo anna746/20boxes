@@ -1,0 +1,25 @@
+ul {
+  list-style-type: none;
+  width: 600px;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;  
+  border: 2px solid blue;
+  padding: 7px;
+  margin: 10px;
+  }
+
+li {
+  width: 40px;
+  height: 40px;
+  background-color: blue;
+}
+
+ul:last-of-type {
+  background: coral;
+}
+
+ul:last-of-type li {
+  background: purple;
+}
